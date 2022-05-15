@@ -3,7 +3,7 @@ local players = game:GetService("Players")
 
 for _, v in pairs(players:GetChildren()) do
   if v.UserId == ownerId then
-    print("Owner is in game, be careful")
+    warn("Owner is in game, be careful")
   end
 end
 
